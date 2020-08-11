@@ -123,7 +123,7 @@ async def delete(ID:int):
         session.commit()
         return {
             "Status":200,
-            "message": "Job lisitng is deleted"
+            "message": "Job lisiting is deleted"
         }
     except:
         return {
